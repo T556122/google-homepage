@@ -9,9 +9,11 @@ body {
 }
 
 #logo-container {
+    background-color: bisque;
+    background-image: url("https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png"); 
+    background-repeat: no-repeat;
     width: 50%;
     height: 50%;
-    background-color: bisque;
 }
 
 #logo-image {
@@ -34,6 +36,18 @@ body {
     justify-content: center;
 }
 
+#search-bar:hover{
+    animation-name: search-shadow;
+    animation-duration: 70ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes search-shadow {
+    100% {
+        box-shadow: 5px 10px #888888;
+    }
+}
+
 input {
     width: 500px;
     height: 25px;
@@ -49,9 +63,22 @@ input {
     font-size: 14px;
 }
 
+#buttons:hover {
+    animation-name: button-border;
+    animation-duration: 70ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button-border {
+    100% {
+        border-color: black;
+        border-width: 5px;
+    }
+}
+
 #google-search {
     margin: 10px;
-    border-color: black
+    border-color: black;
     background-color: #f2f2f2;
     padding: 10px 10px;
 }
