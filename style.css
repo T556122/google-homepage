@@ -20,7 +20,13 @@ body {
     background: blanchedalmond;
     display: flex;
     justify-items: center;
-    
+}
+
+input {
+    width: 500px;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 5%;
 }
 
 #buttons {
