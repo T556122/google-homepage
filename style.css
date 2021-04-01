@@ -8,14 +8,20 @@ body {
     justify-content: center;
 }
 
-#logo-container {
+#logo-div {
     background-color: bisque;
-    background-image: url("https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png"); 
-    background-repeat: no-repeat;
+    /*background-image: url("https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png"); 
+    background-repeat: no-repeat; 
     width: 50%;
-    height: 50%;
+    height: 50%; */
 }
 
+#logo-img {
+    transform: scale(0.2);
+    justify-content: left;
+}
+
+/*
 #logo-image {
     height: 30%;
     width: 30%;
@@ -35,6 +41,7 @@ body {
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
+    background-color:aquamarine;
     /*display: block;
     justify-content: center;*/
 }
