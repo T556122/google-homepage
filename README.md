@@ -4,3 +4,9 @@ Skills I have gained after completion:
 
 
 Self Reflection after completion:
+
+TO DO:
+-add space in top space
+-recenter search bar
+-align headers and footers for flex displays
+-

@@ -23,7 +23,7 @@ body {
 }
 
 #logo-div {
-    margin: 0% 30%;
+    margin: 0% 40%;
     background-color: bisque;
     /*background-image: url("https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png"); 
     background-repeat: no-repeat; 
@@ -77,9 +77,11 @@ body {
     border: 2px solid black;
 }
 
-
-
-
+#search-div {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    margin: 0% 30%;
+}
 
 #search-bar {
     /*width: 70%;*/
