@@ -10,30 +10,42 @@ body {
 
 #header {
     background-color: aliceblue;
+    border: 2px solid black;
 }
 
 #top {
     background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+#top-space {
+    border: 2px solid black;
 }
 
 #logo-div {
+    margin: 0% 30%;
     background-color: bisque;
     /*background-image: url("https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png"); 
     background-repeat: no-repeat; 
     width: 50%;
     height: 50%; */
+    border: 2px solid black;
 }
 
 #logo-img {
+    /* updated logo center change 21.06.01
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     max-width: 50%;
     max-height: 50%;
+    */
       /*
     aspect-ratio: auto 272 / 92;
   */
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /*
@@ -52,14 +64,17 @@ body {
 
 #mid {
     background-color: aquamarine;
+    border: 2px solid black;
 }
 
 #bottom {
     background-color: azure;
+    border: 2px solid black;
 }
 
 #footer {
     background-color: beige;
+    border: 2px solid black;
 }
 
 
