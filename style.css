@@ -6,6 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 400px;
+    min-height: 600px;
 }
 
 #header {
@@ -16,10 +18,12 @@ body {
 #top {
     background-color: antiquewhite;
     border: 2px solid black;
+    height: 30%;
 }
 
 #top-space {
     border: 2px solid black;
+    height: 60%;
 }
 
 #logo-div {
@@ -65,35 +69,30 @@ body {
 #mid {
     background-color: aquamarine;
     border: 2px solid black;
+    display: flex;
+    
 }
 
-#bottom {
-    background-color: azure;
-    border: 2px solid black;
-}
-
-#footer {
-    background-color: beige;
-    border: 2px solid black;
-}
 
 #search-div {
     border: 2px solid black;
     background-color: blanchedalmond;
+    /*min-width: 380px;*/
     margin: 0% 30%;
+    /*min-height: 100px;*/
 }
 
 #search-bar {
     /*width: 70%;*/
     /*including width doesn't follow to justification*/
     border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 100%;
+    width: 100%;
     background-color:aquamarine;
     /*display: block;
     justify-content: center;*/
 }
-
+/*
 #search-bar:hover{
     animation-name: search-shadow;
     animation-duration: 70ms;
@@ -105,7 +104,7 @@ body {
         box-shadow: 5px 10px #888888;
     }
 }
-
+*/
 input {
     width: 500px;
     height: 35px;
@@ -148,4 +147,14 @@ input {
     background-color: #f2f2f2;
     padding: 10px 20px;
     border-radius: 5%;
+}
+
+#bottom {
+    background-color: azure;
+    border: 2px solid black;
+}
+
+#footer {
+    background-color: beige;
+    border: 2px solid black;
 }

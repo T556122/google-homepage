@@ -4,9 +4,14 @@ Skills I have gained after completion:
 
 
 Self Reflection after completion:
+-align-items is for vertical
+-justify-content is for horizontal
+-labeling and borders for divs has proved helpful
 
 TO DO:
 -add space in top space
 -recenter search bar
 -align headers and footers for flex displays
--
+-fix double search bar
+-set min width for search bar
+justify sections in column
