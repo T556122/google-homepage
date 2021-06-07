@@ -16,3 +16,4 @@ TO DO:
 -fix double search bar
 -set min width for search bar
 justify sections in column
+-make a better header and footer: https://www.youtube.com/results?search_query=header+footer+css
